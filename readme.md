@@ -1,6 +1,3 @@
-Of course. Here is a rewritten, human-like README in Markdown format that includes your repository link and aligns with your project's goals.
-
------
 
 # Document Q\&A Chatbot 🧠
 
@@ -9,8 +6,6 @@ Hey there\! I'm Sharath, and welcome to my Document Q\&A project.
 Ever felt the pain of searching through a huge PDF or text file for just one piece of information? I built this tool to solve that. You can just **upload your documents and ask them questions directly**. Think of it as having a conversation with your files.
 
 This project is open-source, and you can find all the code right here: [https://github.com/mr-sharath/document\_RAG](https://github.com/mr-sharath/document_RAG)
-
------
 
 ## How It Works Under the Hood 🛠️
 
@@ -24,8 +19,6 @@ I'm using a technique called **Retrieval-Augmented Generation (RAG)**. Here’s 
 4.  **Generation**: Finally, it hands your question and the relevant chunks over to an **OpenAI LLM (like GPT-3.5)** with a simple instruction: "Answer this question using *only* this information."
 
 This process ensures the answers are fast, accurate, and grounded in the content of your documents. The whole thing is tied together with **LangChain** and served up through a simple web UI built with **Gradio**.
-
------
 
 ## Getting It Running on Your Machine 🚀
 
@@ -72,8 +65,6 @@ python main.py
 ```
 
 You'll see some startup messages, and then a URL will appear (something like `http://127.0.0.1:7860`). Open that link in your browser to start using the chatbot.
-
------
 
 ## How to Use the Chatbot 💬
 
